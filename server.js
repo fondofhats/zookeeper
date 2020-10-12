@@ -6,7 +6,9 @@ const { animals } = require('./data/animals');
 function filterByQuery(query, animalsArray){
     let personalityTraitsArray = [];
     let filteredResults = animalsArray;
-    if(personalityTraitsArray){
+    if(personalityTraitsArray.length > 0){
+        console.log("TRUE: ");
+        console.log(personalityTraitsArray);
         if(typeof query.personalityTraits === 'string'){
             personalityTraitsArray = [query.personalityTraits];
         } else {
@@ -36,5 +38,5 @@ app.get('/api/animals', (req, res) => {
   });
 
 app.listen(PORT, () => {
-    console.log(`API server now on port PORT`);
+    console.log(`API server now on port ${PORT}`);
 });
