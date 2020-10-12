@@ -1,0 +1,24 @@
+{
+  "name": "zookeeper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fondofhats/zookeeper.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fondofhats/zookeeper/issues"
+  },
+  "homepage": "https://github.com/fondofhats/zookeeper#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
+}
