@@ -126,6 +126,28 @@
         "hungry"
       ],
       "id": "12"
+    },
+    {
+      "name": "Quinn Quinn",
+      "species": "Feline",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry",
+        "loving",
+        "goofy"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "Quinn Quinn",
+      "species": "Feline",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry",
+        "loving",
+        "goofy"
+      ],
+      "id": "14"
     }
   ]
 }
